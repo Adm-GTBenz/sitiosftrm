@@ -72,6 +72,10 @@
     </div>
     <script>
         const emojis = ['🌸🥰', '🥺', '😍', '😘', '💍', '❤️‍🩹'];
+        document.querySelector('.emoji-container').style.position = 'fixed';
+        document.querySelector('.emoji-container').style.top = '50%';
+        document.querySelector('.emoji-container').style.left = '50%';
+        document.querySelector('.emoji-container').style.transform = 'translate(-50%, -50%)';
         document.querySelector('.emoji-container').style.position = 'absolute';
         document.querySelector('.emoji-container').style.top = '1rem';
         document.querySelector('.emoji-container').style.left = '50%';
